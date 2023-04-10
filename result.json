@@ -1,0 +1,311 @@
+{
+    "type": "NetworkGraph",
+    "protocol": "ZeroTier Peers Information",
+    "version": "1",
+    "revision": null,
+    "metric": "static",
+    "nodes": [
+        {
+            "id": "103.195.103.66/9993",
+            "label": "",
+            "local_addresses": [],
+            "properties": {}
+        },
+        {
+            "id": "104.194.8.134/9993",
+            "label": "",
+            "local_addresses": [],
+            "properties": {}
+        },
+        {
+            "id": "192.168.1.1/29994",
+            "label": "",
+            "local_addresses": [],
+            "properties": {}
+        },
+        {
+            "id": "192.168.1.1/43255",
+            "label": "",
+            "local_addresses": [],
+            "properties": {}
+        },
+        {
+            "id": "192.168.1.1/9993",
+            "label": "",
+            "local_addresses": [],
+            "properties": {}
+        },
+        {
+            "id": "35.184.151.79/41009",
+            "label": "",
+            "local_addresses": [],
+            "properties": {}
+        },
+        {
+            "id": "35.184.151.79/65111",
+            "label": "",
+            "local_addresses": [],
+            "properties": {}
+        },
+        {
+            "id": "50.7.252.138/9993",
+            "label": "",
+            "local_addresses": [],
+            "properties": {}
+        },
+        {
+            "id": "62f865ae71",
+            "label": "",
+            "local_addresses": [],
+            "properties": {
+                "address": "62f865ae71",
+                "isBonded": false,
+                "latency": 314,
+                "role": "PLANET",
+                "version": "-1.-1.-1",
+                "versionMajor": -1,
+                "versionMinor": -1,
+                "versionRev": -1
+            }
+        },
+        {
+            "id": "6ab565387a",
+            "label": "",
+            "local_addresses": [],
+            "properties": {
+                "address": "6ab565387a",
+                "isBonded": false,
+                "latency": 365,
+                "role": "LEAF",
+                "version": "1.8.5",
+                "versionMajor": 1,
+                "versionMinor": 8,
+                "versionRev": 5
+            }
+        },
+        {
+            "id": "778cde7190",
+            "label": "",
+            "local_addresses": [],
+            "properties": {
+                "address": "778cde7190",
+                "isBonded": false,
+                "latency": 305,
+                "role": "PLANET",
+                "version": "-1.-1.-1",
+                "versionMajor": -1,
+                "versionMinor": -1,
+                "versionRev": -1
+            }
+        },
+        {
+            "id": "84.17.53.155/9993",
+            "label": "",
+            "local_addresses": [],
+            "properties": {}
+        },
+        {
+            "id": "8e1dd5221b",
+            "label": "",
+            "local_addresses": [],
+            "properties": {
+                "address": "8e1dd5221b",
+                "isBonded": false,
+                "latency": -1,
+                "role": "LEAF",
+                "version": "1.8.4",
+                "versionMajor": 1,
+                "versionMinor": 8,
+                "versionRev": 4
+            }
+        },
+        {
+            "id": "cafe04eba9",
+            "label": "",
+            "local_addresses": [],
+            "properties": {
+                "address": "cafe04eba9",
+                "isBonded": false,
+                "latency": 293,
+                "role": "PLANET",
+                "version": "-1.-1.-1",
+                "versionMajor": -1,
+                "versionMinor": -1,
+                "versionRev": -1
+            }
+        },
+        {
+            "id": "cafe9efeb9",
+            "label": "",
+            "local_addresses": [],
+            "properties": {
+                "address": "cafe9efeb9",
+                "isBonded": false,
+                "latency": 281,
+                "role": "PLANET",
+                "version": "-1.-1.-1",
+                "versionMajor": -1,
+                "versionMinor": -1,
+                "versionRev": -1
+            }
+        },
+        {
+            "id": "fdb7:6d1e:1c55::1/9993",
+            "label": "",
+            "local_addresses": [],
+            "properties": {}
+        }
+    ],
+    "links": [
+        {
+            "source": "62f865ae71",
+            "target": "50.7.252.138/9993",
+            "cost": 314,
+            "cost_text": "",
+            "properties": {
+                "active": true,
+                "address": "50.7.252.138/9993",
+                "expired": false,
+                "lastReceive": 1650282188906,
+                "lastSend": 1650282418860,
+                "preferred": false,
+                "trustedPathId": 0
+            }
+        },
+        {
+            "source": "6ab565387a",
+            "target": "35.184.151.79/41009",
+            "cost": 365,
+            "cost_text": "",
+            "properties": {
+                "active": true,
+                "address": "35.184.151.79/41009",
+                "expired": false,
+                "lastReceive": 1650283825938,
+                "lastSend": 1650283830677,
+                "preferred": true,
+                "trustedPathId": 0
+            }
+        },
+        {
+            "source": "6ab565387a",
+            "target": "35.184.151.79/65111",
+            "cost": 365,
+            "cost_text": "",
+            "properties": {
+                "active": true,
+                "address": "35.184.151.79/65111",
+                "expired": false,
+                "lastReceive": 1650276602287,
+                "lastSend": 1650276602025,
+                "preferred": false,
+                "trustedPathId": 0
+            }
+        },
+        {
+            "source": "778cde7190",
+            "target": "103.195.103.66/9993",
+            "cost": 305,
+            "cost_text": "",
+            "properties": {
+                "active": true,
+                "address": "103.195.103.66/9993",
+                "expired": false,
+                "lastReceive": 1650283816045,
+                "lastSend": 1650283830677,
+                "preferred": false,
+                "trustedPathId": 0
+            }
+        },
+        {
+            "source": "8e1dd5221b",
+            "target": "192.168.1.1/29994",
+            "cost": -1,
+            "cost_text": "",
+            "properties": {
+                "active": true,
+                "address": "192.168.1.1/29994",
+                "expired": false,
+                "lastReceive": 1650280722801,
+                "lastSend": 1650280722794,
+                "preferred": false,
+                "trustedPathId": 0
+            }
+        },
+        {
+            "source": "8e1dd5221b",
+            "target": "192.168.1.1/43255",
+            "cost": -1,
+            "cost_text": "",
+            "properties": {
+                "active": true,
+                "address": "192.168.1.1/43255",
+                "expired": false,
+                "lastReceive": 1650280963082,
+                "lastSend": 1650280963081,
+                "preferred": false,
+                "trustedPathId": 0
+            }
+        },
+        {
+            "source": "8e1dd5221b",
+            "target": "192.168.1.1/9993",
+            "cost": -1,
+            "cost_text": "",
+            "properties": {
+                "active": true,
+                "address": "192.168.1.1/9993",
+                "expired": false,
+                "lastReceive": 1650280978238,
+                "lastSend": 1650280978238,
+                "preferred": false,
+                "trustedPathId": 0
+            }
+        },
+        {
+            "source": "8e1dd5221b",
+            "target": "fdb7:6d1e:1c55::1/9993",
+            "cost": -1,
+            "cost_text": "",
+            "properties": {
+                "active": true,
+                "address": "fdb7:6d1e:1c55::1/9993",
+                "expired": false,
+                "lastReceive": 1650283801405,
+                "lastSend": 1650283800634,
+                "preferred": true,
+                "trustedPathId": 0
+            }
+        },
+        {
+            "source": "cafe04eba9",
+            "target": "84.17.53.155/9993",
+            "cost": 293,
+            "cost_text": "",
+            "properties": {
+                "active": true,
+                "address": "84.17.53.155/9993",
+                "expired": false,
+                "lastReceive": 1650278304164,
+                "lastSend": 1650278544200,
+                "preferred": false,
+                "trustedPathId": 0
+            }
+        },
+        {
+            "source": "cafe9efeb9",
+            "target": "104.194.8.134/9993",
+            "cost": 281,
+            "cost_text": "",
+            "properties": {
+                "active": true,
+                "address": "104.194.8.134/9993",
+                "expired": false,
+                "lastReceive": 1650283760850,
+                "lastSend": 1650283830677,
+                "preferred": false,
+                "trustedPathId": 0
+            }
+        }
+    ]
+}
